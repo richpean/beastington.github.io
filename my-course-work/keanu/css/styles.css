@@ -1,4 +1,49 @@
 body {
 	background: black;
+	background-image: url("http://wallpapercave.com/wp/TRkdY56.png");
+	background-position:center;
 	color: white;
+	text-align: left;
+	font-family: helvetica, sans-serif;
+}
+div {
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,.8);
+	padding: 10px;
+
+}
+
+ul {
+	text-align: left;
+	width:300px;
+}
+
+img {
+border: #224422 1px solid;
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:purple;
+}
+
+.links{
+	margin: 0 auto;
+	background-color: purple;
+	text-align: none;
+}
+
+.links li{
+	display:inline;
+	width: 100px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #224422;
+
 }
