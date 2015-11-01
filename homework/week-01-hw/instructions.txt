@@ -19,7 +19,7 @@ This assignment will help reinforce the following topics from week 1:
 
 //// INSTRUCTIONS ////
 
-1) Add proper HTML structure to: index.html and about.html
+1) Add proper HTML structure to: index.html and resume.html
 
 Ensure you included your Doctype, html, head, and body tags!
 
