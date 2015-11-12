@@ -1,3 +1,4 @@
+/*Great use of some advanced and multi-browser compatible CSS. Could be good to take a moment to clean up indentation and formatting.*/
 body {
     background-size: cover;
     /*background-position: center;*/
@@ -22,7 +23,9 @@ body {
 li {
     list-style: none;
 }
+/*missing line space here. no functional difference, just for consistency.*/
 h1 {
+    /*missing space after : */
     margin:0;
 }
 .btn {
@@ -37,8 +40,10 @@ h1 {
   border-radius: 2px;
   color: #ffffff;
   font-size: 13px;
+  /*can abbreviate to 10px 20px*/
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  /*indentation*/
     float: right;
     margin-right: 10px;
     margin-top: 10px;
@@ -63,14 +68,17 @@ h1 {
   -webkit-border-radius: 2;
   -moz-border-radius: 2;
   border-radius: 2px;
+  /*protip: can shorten this to #fff;*/
   color: #ffffff;
   font-size: 13px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  /*indentation*/
     margin-bottom: 40px;
     margin-top: 40px;
 }
 
+/*are styles for this identical to .btn:hover ? If so can combine */
 .homwbtn:hover {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
@@ -82,6 +90,7 @@ h1 {
 }
 
 .btnbox{
+    /*missing space after : here and in some other spots;*/
     top:30px;
     position: relative;
 }
