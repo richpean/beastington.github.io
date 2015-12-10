@@ -1,7 +1,14 @@
 $(document).ready( function() {
 	var total = 0;
 
-	// Add 10 event
+	$('.math div').click(function () {
+		var num = $(this).text()
+		num = parseInt(num)
+		total += num
+		$("#out").html(total);
+	})
+
+	/*// Add 10 event
 	$('#a10').click(add10)
 
 	function add10 () {
@@ -39,7 +46,7 @@ $(document).ready( function() {
 	function sub20 () {
 		total -= 20
 		$('#out').text(total)
-	}
+	}*/
 
 	// Subtract 30 event
 	$('#blue').click(blueBG)

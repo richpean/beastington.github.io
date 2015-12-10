@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Hi</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/css/materialize.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+     
+            <div class="z-depth-5" id="main-content">
+                    <h5>Let's get started</h5>
+                    <form class="col s12">
+                        
+                            <div class="input-field col s6">
+                                <!--<i class="material-icons prefix">account_circle</i>-->
+                                <input id="icon_prefix" type="text" class="firstname validate">
+                                <label for="icon_prefix">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <!--<i class="material-icons prefix">phone</i>-->
+                                <input id="icon_telephone" type="text" class="lastname validate">
+                                <label for="icon_telephone">Last Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <!--<i class="material-icons prefix">phone</i>-->
+                                <input id="age" type="tel" class="validate">
+                                <label for="icon_telephone">Age</label>
+                            </div>
+                            
+                            <div class="input-field col s6 topspace">
+                                <select>
+                                    <option value="" disabled selected>Select</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                    <option value="3">Other</option>
+                                </select>
+                                <label>Gender</label>
+                            </div>
+                            <div class="input-field col s12 topspace">
+                                <select>
+                                    <option value="" disabled selected>Select</option>
+                                    <option value="1">Organize my finances</option>
+                                    <option value="2">Grow my net worth</option>
+                                    <option value="3">Find the right next steps</option>
+                                    <option value="4">Build better spending habits</option>
+                                    <option value="5">I'm not sure</option>
+                                </select>
+                                <label>How can we best help you</label>
+                            </div>
+                            <div class="input-field col s12 topspace">
+                                <select>
+                                    <option value="" disabled selected>Select</option>
+                                    <option value="1">All set (acheiving everything I want)</option>
+                                    <option value="2">Confident (wouldn't mind a second opinion)</option>
+                                    <option value="3">Unsure (not clear on exactly what I need)</option>
+                                    <option value="4">Overwhelmed (no idea where to start)</option>
+                                    <option value="5">I'm not sure</option>
+                                </select>
+                                <label>When managing my money, I feel...</label>
+                            </div>
+                    </form>
+                    <div class="form-footer footer-copyright">
+                        <div class="bottom-footer container">
+                        <p class="alert">Space </p>
+                        <a class="waves-effect waves-light btn-large">Continue</a>
+                        <div class="dotstyle dotstyle-fillup">
+	                       <ul>
+		                      <li class="current"><a href="#">Basics</a></li>
+		                      <li><a href="#">Second Set</a></li>
+		                      <li><a href="#">Third Set</a></li>
+	                       </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar">
+                <!-- <img src="https://learnvest.global.ssl.fastly.net/exp-assets/img/planner-shots/phil.png">
+                <p class="plannername">Phil, CFP </p> -->
+                <p class="sidecopy">Welcome to Grown Up Stuff<br /><br /> Thanks for your interest in GUS. Please answer a few questions so we can send you curated content weekly to your email.</p>
+                <p id="namesidetext" style="display:none;">
+                Nice to meet you! <span id="username" ></span>.<br /><br />
+                <b>Here's a fun fact:</b> 90% of our clients meet their emergency savings goal in less than a year.</p>
+            </div>
+            <div class="real-footer footer-copyright">
+                <div class=" container">
+                    <div class="security" >
+                        <img src="https://www.learnvest.com/fe/resources/img/security-icons/mcafee.png">
+                        <img src="https://www.learnvest.com/fe/resources/img/security-icons/verisign.png">
+                        <img id="security" src="https://privacy.truste.com/ctv/images/newvp/truste-seal.png;jsessionid=9E175F21B41F3BB3BDC647B22D1445D5">
+                    </div>
+                    <p>LearnVest © 2015 | <a class="grey-text text-lighten-4 right" href="#!"><a href="">Security</a> & <a href="">Legal - Privacy Policy</a></p>
+                </div>
+            </div>    
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          <script type="text/javascript" src="js/materialize.min.js"></script>        
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script> $(document).ready(function() {
+        $('select').material_select();
+        });</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
