@@ -20,7 +20,7 @@ body {
 }
 #ticket table {
   font-family: monospace;
-  width: 100%;s
+  width: 100%;
   border-collapse: collapse;
 }
 #ticket td, #ticket th {
@@ -42,7 +42,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0,0,0,.25);
 }
-#entry input{
+#entry input {
   width: 100%;
   padding: 10px;
   border: 1px solid black;
@@ -54,7 +54,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-#entry input:focus{
+#entry input:focus {
   outline: none;
   border-color: rgba(255,255,255,.75);
 }
