@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var total = 0
 
-	$('#entry').submit(function(event) {
+	$('#entry').submit(function (event) {
 
 		event.preventDefault()
 		var newCost = $('#newEntry').val()
@@ -10,8 +10,7 @@ $(document).ready(function(){
 		total += newCost
 		var addtoreceipt = '<tr><td></td><td>' + '$' + newCost + '</td></tr>'
 		$('#entries').append(addtoreceipt)
-		$('')
-		$('#total').text('$' + total);
+		$('#total').text("$" + total.toFixed(2))
 		$('#newEntry').val('')
 	})
 

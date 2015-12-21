@@ -97,28 +97,32 @@ textarea {
 body {
     font-family: 'Proxima Nova', sans-serif;
     background-image: url('https://images.unsplash.com/photo-1429032021766-c6a53949594f?dpr=2&fit=crop&fm=jpg&h=900&ixjsv=2.0.0&ixlib=rb-0.3.5&q=50&w=1350');
-     /*background-image: url('https://images.unsplash.com/photo-1429043794791-eb8f26f44081?ixlib=rb-0.3.5&q=80&fm=jpg&w=1080&fit=max&s=15dbf8ecd6a22a0ebb61158195647cf8');*/
-    background-size: cover;
-    
+     background-image: url('https://images.unsplash.com/photo-1441448770220-76743f9e6af6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=51a23837b0d55917ae8cb46c8ca7efe2');
+    background-size: cover; 
 }
 #container {
     background-color: #FDFDFD;
     width: 90%;
     padding: 30px;
-    height: 690px;
     margin: 0 auto;
+    display: flex;
 }
-
+.btn-large {
+    width: 100%;
+}
 p {
     color: #333333;
 }
-/*#main-content {
-    background-color: #FDFDFD;
-    width: 90%;
-    padding: 30px;
-    height: 690px;
-    margin: 0 auto;
-}*/
+
+#moreinfo {
+    float:right;
+}
+#top-maincontent h5 {
+    float:left;
+}
+#top-maincontent {
+    overflow: hidden;
+}
 #main-content h5 {
     margin: 0 0 1.656rem 0;   
 }
@@ -133,10 +137,6 @@ p {
 #sidebar {
     display: none;
 }
-
-
-
-
 .plannername {
     text-align: center; 
     color: #8A8888;
@@ -166,7 +166,6 @@ p {
 	list-style: none;
 	cursor: default;
 }
-
 .dotstyle li {
 	position: relative;
 	display: block;
@@ -177,7 +176,6 @@ p {
 	cursor: default;
     bottom: 30px;
 }
-
 .dotstyle li a {
 	top: 0;
 	left: 0;
@@ -191,14 +189,12 @@ p {
 	cursor: default;  /*make the text accessible to screen readers */
 	position: absolute;
 }
-
 .dotstyle-fillup li a {
 	overflow: hidden;
 	background-color: rgba(0,0,0,0);
 	box-shadow: inset 0 0 0 1px rgba(38,166,154,1);
 	transition: background 0.3s;
 }
-
 .dotstyle-fillup li a::after {
 	content: '';
 	position: absolute;
@@ -210,16 +206,13 @@ p {
 	box-shadow: 0 0 1px #fff;
 	transition: height 0.3s;
 }
-
 .dotstyle-fillup li a:hover,
 .dotstyle-fillup li a:focus {
 	background-color: rgba(255,255,255,0.2);
 }
-
 .dotstyle-fillup li.current a::after {
 	height: 100%;
 }
-
 .input-field {
     
   margin-bottom:20px;  
@@ -231,35 +224,29 @@ p {
 div.topspace {
     margin-top: 2.3rem;   
 }
-
 input.select-dropdown:hover {
     border-bottom: 1px solid #26a69a;
 }
-
 div.real-footer {
     margin: 50px auto;     
     overflow:auto;
     width: 100%;
     text-align:center;
 }
-
 div.real-footer .footercontainer {
     width: 100%;     
     padding: 0 30px;
     overflow:auto;
     max-width: 100%;
 }
-
 div.real-footer p{
     font-size: .7em;
     margin: 15px 0 0 0;
     color: white;
 }
-
 div.security img{
     width: inherit;
 }
-
 img#security {
     width: 50px;
 }
@@ -345,14 +332,9 @@ img#security {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 854px) {
+@media only screen and (min-width: 666px) {
     /* Style adjustments for viewports that meet the condition */
 
-h1.welcometitle {
-    font-size: 1.4em;
-    font-weight: bold;
-    margin-top: 0;
-}
 
 #container {
     float: left;
@@ -361,14 +343,28 @@ h1.welcometitle {
     height: inherit;
     padding: 0;
     background: none;
+    background-color: rgba(245, 245, 245, 0.78);
+    display: block;
 }
     
 #main-content {
     background-color: #FDFDFD;
-    width: 560px;
     padding: 30px;
-    float: left; 
-    height:690px;
+    float: right; 
+}
+
+p#subcopy {
+    display:none;
+}
+
+h1.welcometitle {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#moreinfo {
+    display:none;
 }
 
 #main-content h5 {
@@ -381,18 +377,17 @@ h1.welcometitle {
 
 #sidebar {
     display: block;
-    background-color: rgba(245, 245, 245, 0.9);
+    
     float: left;
     width: 240px;
     padding:30px; 
-    height: 690px;
 }
 
 #sidebar img {
     margin: 0 auto;
     width: 90px;
     display: block;
-    border: 1px solid rgba(38, 166, 154, 0.88);
+    border: 1px solid rgba(38, 166, 154, 0.73);
     border-radius: 50px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -451,12 +446,7 @@ img#security {
 }
 
 @media only screen and (min-width: 1200px) {
-#main-content { 
-    height: 706px;
-}
-#sidebar { 
-    height: 706px;
-}
+
 }
 
 /* ==========================================================================
