@@ -1,7 +1,0 @@
-{
-	"name": "grown-up-guide-code",
-	"main": "server.js",
-	"dependencies": {
-		"express": "~4.8.6"
-	}
-}

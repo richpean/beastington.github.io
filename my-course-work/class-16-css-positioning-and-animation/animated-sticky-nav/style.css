@@ -1,0 +1,18 @@
+header { 
+	position:fixed;
+	background-color: blue;
+	width: 100%;
+	font-size: 80px;
+	color: white;
+	top: 0;
+	text-align: center;
+	/*transition: all 0.5s ease;*/
+	transition: font-size 0.5s, background-color 2s ease;
+}
+header.sticky {
+	background-color: red;
+	font-size: 24px;
+}
+body {
+	padding-top: 80px;
+}
