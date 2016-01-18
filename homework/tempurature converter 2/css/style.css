@@ -1,0 +1,18 @@
+#temp {
+	width:150px;
+}
+section div{
+	margin: 15px 0;
+}
+section {
+	padding:30px;
+	background-color: rgba(255,255,255,0.9);
+	
+	text-align: center;
+	margin: 0 auto;
+}
+output {
+	font-size: 34px;
+	width: 300px;
+	height: 100px;
+}
